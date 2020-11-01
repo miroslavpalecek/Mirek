@@ -1,0 +1,27 @@
+{
+  "name": "backend-api",
+  "version": "1.0.0",
+  "description": "project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miroslavpalecek/Mirek.git"
+  },
+  "keywords": [
+    "anna"
+  ],
+  "author": "mirek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miroslavpalecek/Mirek/issues"
+  },
+  "homepage": "https://github.com/miroslavpalecek/Mirek#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11",
+    "nodemon": "^2.0.6"
+  }
+}
