@@ -11,4 +11,8 @@ app.get('/users', (req,res)=>{
     res.json({message:'Ahoj negri'});
 })
 
+app.post('/users', (req,res)=> {
+    res.json({'code' : 'userCreated'});
+});
+
 app.listen(3000, () => console.log ('Server Started'))
